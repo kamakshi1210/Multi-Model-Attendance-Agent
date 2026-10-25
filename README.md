@@ -236,4 +236,3 @@ Multimodal-attendance-agent-/
 This project is licensed under the **MIT License** — see the [`LICENSE`](LICENSE) file for details.
 
 - **Original Starter Codebase**: [Rohith K](https://github.com/Rohithk05/Multimodal-attendance-agent-)
-- **Architecture, Multimodal Refactoring & Capstone Implementation**: **Prithviraj Singh** ([@Prithviraj-Singh0268](https://github.com/Prithviraj-Singh0268))
