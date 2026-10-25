@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  attendance-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multimodal-attendance-agent
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.0-flash}
+    volumes:
+      - ./data:/app/backend/data
+    restart: unless-stopped

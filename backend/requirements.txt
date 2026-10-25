@@ -1,0 +1,34 @@
+# ====================================================================
+# Multimodal Attendance & Engagement Agent - Python Dependencies
+# ====================================================================
+
+# Web Framework & ASGI Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+websockets>=12.0
+
+# Computer Vision & Multi-Person Tracking
+opencv-python>=4.9.0
+mediapipe>=0.10.14
+# deep-sort-realtime removed: replaced by core/centroid_tracker.py (pure numpy, no torch dep)
+
+# Audio Signal Extraction & Processing
+librosa>=0.10.1
+soundfile>=0.12.1
+
+# Numeric Processing & Data Handling
+numpy>=1.26.0,<2.0.0
+pandas>=2.2.0
+
+# Database & ORM
+sqlalchemy>=2.0.0
+
+# Generative AI (Google Gemini)
+google-genai>=0.1.1
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+
+# Reporting & Testing
+reportlab>=4.1.0
+pytest>=8.0.0
